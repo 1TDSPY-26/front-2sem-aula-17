@@ -25,6 +25,7 @@ export default function Produtos() {
 
             } catch (error) {
                 console.error(error);
+
             }
 
         }
