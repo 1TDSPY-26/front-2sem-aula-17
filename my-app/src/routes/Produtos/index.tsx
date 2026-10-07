@@ -43,7 +43,7 @@ export default function Produtos() {
             });
             ;
             if (!response.ok) {
-                throw new Error(`Erro ao excluir o produto : ${response.status} - ${response.statusText}`);
+                throw new Error(`Erro ao excluir produto: ${response.status} - ${response.statusText}`);
             }
 
             //Redirect
