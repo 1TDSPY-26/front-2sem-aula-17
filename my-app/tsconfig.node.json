@@ -5,13 +5,17 @@
     "lib": ["ES2023"],
     "skipLibCheck": true,
 
-    /* Bundler mode */
-    "module": "Bundler",
-    "moduleResolution": "Bundler",
+    /* Modos compatíveis com a sua versão do TS */
+    "module": "esnext",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+
+    /* Mapeamento manual para resolver o erro do 'node' */
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
 
     /* Linting */
     "noUnusedLocals": true,
