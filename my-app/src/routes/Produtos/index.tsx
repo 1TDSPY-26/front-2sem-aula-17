@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-export default function Produtos() {
-  return (
-    <div>
-      <h1>Produtos</h1>
-    </div>
-  );
-}
-=======
 import { useEffect, useState } from "react";
 import { listaProdutos } from "../../data/listaProdutos";
 import type { TipoProduto } from "../../types/types";
@@ -31,4 +22,3 @@ export default function Produtos() {
         </main>
     );
 }
->>>>>>> origin/feature/exemplo-pf0670
